@@ -2,8 +2,6 @@
 #include <cmath>
 #include <Windows.h>
 
-#pragma execution_character_set("utf-8")
-
 int main() {
 
     SetConsoleCP(65001);
@@ -38,7 +36,7 @@ int main() {
             double a, b;
             std::cout << "Введите первое число: "; std::cin >> a;
             std::cout << "Введите второе число: "; std::cin >> b;
-            std::cout << "Результат: " << b - a << "\n";
+            std::cout << "Результат: " << a - b << "\n";
             break;
         }
         case 3: {
